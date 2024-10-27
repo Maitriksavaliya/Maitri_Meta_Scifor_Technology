@@ -1,0 +1,72 @@
+1. Introduction to Git:
+_______________________
+
+-> Git is a distributed version control system that allows developers to track changes in source code during software development.
+-> It helps in managing code versions, enabling collaboration, and providing a way to experiment with code safely.
+
+Version Control: Keeps a history of code changes, making it easy to revert to previous versions.
+Collaboration: Allows multiple developers to work on the same project without overwriting each other's changes.
+Branching & Merging: Enables development in isolated branches and merges changes when needed.
+
+2. Key Concepts:
+________________
+
+Repositories
+-> Local Repository: Located on your local machine where you work on the code.
+-> Remote Repository: Located on a server for collaboration with others.
+
+Branches
+-> Branching allows you to diverge from the main line of development and work in isolation.
+-> Merging brings branch changes back into the main branch or other branches.
+
+Commits
+-> A commit is a snapshot of changes in the repository.
+-> Commits are like save points and form the backbone of Git's version history.
+
+Staging Area
+-> The staging area is where you place changes that you want to include in the next commit.
+
+3. Basic Git Commands:
+_______________________
+
+Setup
+-> git init: Initializes a new Git repository in the current directory.
+
+Basic Workflow Commands
+-> git clone [URL]: Creates a local copy of a remote repository.
+-> git add [file]: Adds files to the staging area.
+-> git status: Shows the status of changes in the working directory and staging area.
+-> git commit -m "[message]": Commits the staged changes with a descriptive message.
+-> git log: Shows the commit history.
+
+Branching and Merging
+-> git branch [branch-name]: Creates a new branch.
+-> git checkout [branch-name]: Switches to the specified branch.
+-> git merge [branch-name]: Merges the specified branch into the current branch.
+
+Updating and Sharing Code
+-> git pull: Fetches and merges changes from a remote repository to the current branch.
+-> git push: Pushes commits from the local repository to the remote repository.
+
+4. Git and GitHub Workflow:
+___________________________
+
+Clone the Repository
+-> Clone the remote repository to your local machine using git clone [URL].
+
+Create a Branch
+-> Create a branch for a new feature or bug fix using git branch [branch-name].
+
+Make Changes & Commit
+-> Make changes in the new branch.
+-> Use git add to stage changes and git commit to save the changes.
+
+Push Changes
+-> Push your changes to the remote repository on GitHub using git push.
+
+Open a Pull Request
+-> On GitHub, open a pull request to merge your changes.
+-> Team members review the pull request, suggest changes, or approve it.
+
+Merge Pull Request
+-> After approval, merge the pull request into the main branch on GitHub.
